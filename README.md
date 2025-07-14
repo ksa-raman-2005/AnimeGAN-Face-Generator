@@ -112,39 +112,6 @@ The Discriminator network takes a `64x64` image and outputs a single probability
 ```bash
 pip install torch torchvision matplotlib tqdm
 ```
-
----
-
-## Running the Project
-
-```bash
-python AnimeGAN_Main.py
-```
-
-Make sure the dataset is properly placed and the path in the script is correct.
-
----
-
-## Output Samples
-
-Generated samples will be stored in the `/samples` folder. Example output:
-
----
-
-## Saving the Generator
-
-After training, the Generator is saved:
-
-```bash
-anime_generator.pth
-```
-
-You can reload it to generate new anime faces later using:
-
-```python
-netG.load_state_dict(torch.load("anime_generator.pth"))
-```
-
 ---
 
 ## Future Improvements
@@ -152,12 +119,6 @@ netG.load_state_dict(torch.load("anime_generator.pth"))
 * Train on larger datasets
 * Add a UI for real-time face generation
 * Fine-tune for specific art styles
-
----
-
-## License
-
-This project is for educational purposes only.
 
 ---
 
