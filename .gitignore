@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch model checkpoints
+*.pth
+*.pt
+
+# Sample outputs
+samples/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
