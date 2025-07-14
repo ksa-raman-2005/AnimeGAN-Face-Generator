@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -11,10 +11,10 @@ ENV/
 *.env
 *.venv
 
-# Jupyter Notebook checkpoints
+
 .ipynb_checkpoints
 
-# PyTorch model checkpoints
+
 *.pth
 *.pt
 
@@ -24,9 +24,6 @@ samples/
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Logs and runtime files
-*.log
 
 # VSCode
 .vscode/
